@@ -22,7 +22,7 @@ body {
   margin-left: 2.5%;
   margin-bottom: 5px;
   font-size: 23px;
-  color: #FDFBFB;
+  color: #4A321C;
 }
 
 nav {
@@ -38,7 +38,11 @@ nav li {
 }
 
 nav li a {
-  color: #FDFBFB;
+  color: #4A321C;
+}
+
+nav li a:hover {
+  border-bottom: 1px solid #4A321C;
 }
 
 main {
@@ -55,7 +59,48 @@ main {
   display: inline-block;
 }
 
+#apresentacao {
+  float: right;
+  margin: 30px 400px 0 0;
+}
 
+#apresentacao h2 {
+  margin-bottom: 10px;
+}
+
+table td {
+  padding: 0 15px 10px 0;
+}
+
+table td a {
+  color: #4A321C;
+}
+
+table td a:hover {
+  border-bottom: 1px solid #4A321C;
+}
+
+#licoes {
+  margin: 30px 0;
+}
+
+#licoes h2 {
+  margin-bottom: 30px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-left: 80px;
+}
+
+#artigos h2 {
+  margin: 20px 0;
+}
 
 .lado-esquerdo {
   display: inline-block;
@@ -69,4 +114,22 @@ main {
   margin-left: 2%;
   padding: 1%;
   border-left: 2px solid #CB9173;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  color: #FDFBFB;
+  background-color: #CB9173;
+  font-size: 14px;
+  font-style: italic;
+}
+
+footer a {
+  color: rgb(26, 24, 24);
+}
+
+footer a:hover {
+  border-bottom: 1px solid #FDFBFB;
 }
