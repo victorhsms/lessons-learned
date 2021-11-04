@@ -1,8 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Open Sans', sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #CB9173;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#titulo {
+  display: inline-block;
+  margin-left: 2.5%;
+  margin-bottom: 5px;
+  font-size: 23px;
+  color: #FDFBFB;
+}
+
+nav {
+  float: right;
+  margin-right: 5%;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+nav li a {
+  color: #FDFBFB;
+}
+
+main {
+  margin-left: 2.5%;
+}
+
+#inicio {
+  margin-top: 80px;
+}
+
+#minha_foto {
+  border-radius: 100%;
+  width: 300px;
+  display: inline-block;
+}
+
+
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 65%;
+  line-height: 25px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 30%;
+  margin-left: 2%;
+  padding: 1%;
+  border-left: 2px solid #CB9173;
 }
